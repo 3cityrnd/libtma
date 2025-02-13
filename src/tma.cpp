@@ -13,7 +13,7 @@ namespace c10 {
     void *alloc_cpu(size_t nbytes)  {
 
 
-    constexpr size_t BLK_SIZE = 8;
+    constexpr size_t BLK_SIZE = 16;
     size_t nbytes_align = (nbytes + BLK_SIZE - 1) / BLK_SIZE * BLK_SIZE;
     void *ptr;
 
