@@ -1,4 +1,4 @@
-### lib [t]orch [m]emory [a]lign align64 & round the cpu's allocation to full 8-byte memory blocks
+### lib [t]orch [m]emory [a]lign align64 & round the cpu's allocation to full 16-byte memory blocks
 
 ```
 cmake -DLOGGING=ON .. && make
